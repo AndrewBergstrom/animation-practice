@@ -10,3 +10,6 @@ array.sort();
 // 3. Put "Kiwi" at the end of the array.
 var array = ["Banana", "Apples", "Oranges", "Blueberries"];
 array.push("Kiwi");
+
+// 4. Remove "Apples" from the array.
+array.shift();
