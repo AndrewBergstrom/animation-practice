@@ -4,3 +4,5 @@ var array = ["Banana", "Apples", "Oranges", "Blueberries"];
 array.shift();
 
 // 2. Sort the array in order.
+var array = ["Banana", "Apples", "Oranges", "Blueberries"];
+array.sort();
