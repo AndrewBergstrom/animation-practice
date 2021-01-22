@@ -1,15 +1,28 @@
-// var todos = [
-//   "clean room",
-//   "brush teeth",
-//   "exercise",
-//   "study javascript",
-//   "eat healthy"
-// ];
-// var todosLength = todos.length;
-// // for(var i = 0; i < todosLength; i++){
-// //   todos.pop();
+var todos = [
+  "clean room",
+  "brush teeth",
+  "exercise",
+  "study javascript",
+  "eat healthy"
+];
+var todosImportant = [
+  "clean room!",
+  "brush teeth!",
+  "exercise!",
+  "study javascript!",
+  "eat healthy!"
+];
+var todosLength = todos.length;
+// for(var i = 0; i < todosLength; i++){
+//   console.log(i);
+// };
 
-// // }
+function logTodos(todo, i) {
+  console.log(todo, i);
+}
+
+todos.forEach(logTodos);
+todosImportant.forEach(logTodos);
 
 // var counterOne = 10;
 // while (counterOne > 0){
@@ -18,9 +31,10 @@
 
 // }
 
-var counterTwo = 10;
-do {
-  console.log(counterTwo);
-  counterTwo--;
+// var counterTwo = 10;
+// do {
+//   console.log(counterTwo);
+//   counterTwo--;
   
-} while (counterTwo > 0);
+// } while (counterTwo > 0);
+
