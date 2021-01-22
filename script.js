@@ -13,20 +13,20 @@ var database = [
     password:"Rick"
   }
   
-  ]
+  ];
 
   var newsfeed = [
     {
       username:"Andrew",
-      password:"human",
+      timeline:"Today the sun went up and I felt my love for the sol",
 
     },
     {
       username:"Lindsay",
-      password:"human2",
+      timeline:"Made it to the dawn and I don't miss you any more",
     },
     {
       username:"Ruth",
-      password:"KittyCat"
+      timeline:"meow meow meow I'm a cat"
     }
   ]
