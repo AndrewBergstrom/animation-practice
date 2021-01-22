@@ -15,6 +15,7 @@ var database = [
   
   ];
 
+  // 3. Create an array called "newsfeed" which contains 3 objects with properties "username" and "timeline".
   var newsfeed = [
     {
       username:"Andrew",
